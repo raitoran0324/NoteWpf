@@ -1,0 +1,25 @@
+﻿<Window x:Class="_05101.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_05101"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition Width="200"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        
+        <!--內容-->
+        <Rectangle Grid.Column="1" Fill="#FF196085"></Rectangle>
+        <StackPanel Grid.Column="1">
+            <Button Margin="20 10" Foreground="White" Background="Transparent" BorderBrush="Transparent" x:Name="OpenBtn" Click="OpenBtn_Click">Open</Button>
+            <Button Margin="20 10" Foreground="White" Background="Transparent" BorderBrush="Transparent" x:Name="SaveBtn" Click="SaveBtn_Click">Save</Button>
+        </StackPanel>
+        
+        <!--左邊打字區-->
+        <TextBox AcceptsReturn="True" TextWrapping="Wrap" x:Name="TextArea"></TextBox>
+    </Grid>
+</Window>
