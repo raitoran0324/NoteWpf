@@ -12,3 +12,17 @@ C:\git\05101\05101\obj\Debug\_05101.Properties.Resources.resources
 C:\git\05101\05101\obj\Debug\05101.csproj.GenerateResource.Cache
 C:\git\05101\05101\obj\Debug\05101.exe
 C:\git\05101\05101\obj\Debug\05101.pdb
+C:\git\05101\bin\Debug\05101.exe.config
+C:\git\05101\obj\Debug\05101.exe
+C:\git\05101\obj\Debug\05101.pdb
+C:\git\05101\bin\Debug\05101.exe
+C:\git\05101\bin\Debug\05101.pdb
+C:\git\05101\obj\Debug\05101.csprojResolveAssemblyReference.cache
+C:\git\05101\obj\Debug\MainWindow.g.cs
+C:\git\05101\obj\Debug\App.g.cs
+C:\git\05101\obj\Debug\05101_MarkupCompile.cache
+C:\git\05101\obj\Debug\05101_MarkupCompile.lref
+C:\git\05101\obj\Debug\MainWindow.baml
+C:\git\05101\obj\Debug\05101.g.resources
+C:\git\05101\obj\Debug\_05101.Properties.Resources.resources
+C:\git\05101\obj\Debug\05101.csproj.GenerateResource.Cache
