@@ -41,3 +41,8 @@ C:\git\notebook\05101\obj\Debug\05101.g.resources
 C:\git\notebook\05101\obj\Debug\_05101.Properties.Resources.resources
 C:\git\notebook\05101\obj\Debug\05101.csproj.GenerateResource.cache
 C:\git\notebook\05101\obj\Debug\05101.csproj.CoreCompileInputs.cache
+C:\git\notebook\05101\obj\Debug\BackGray.g.cs
+C:\git\notebook\05101\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\git\notebook\05101\obj\Debug\BackGray.baml
+C:\git\notebook\05101\obj\Debug\BackWhite.g.cs
+C:\git\notebook\05101\obj\Debug\BackWhite.baml

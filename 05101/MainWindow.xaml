@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_05101"
         mc:Ignorable="d"
-        Title="MainWindow" Height="400" Width="550">
+        Title="MainWindow" Height="500" Width="700">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="150"></ColumnDefinition>
@@ -21,11 +21,19 @@
             <Button Margin="20 5" Foreground="White" HorizontalAlignment="Left" Background="Transparent" BorderBrush="Transparent" x:Name="SaveAsBtn" Click="SaveAsBtn_Click">Save As</Button>
         </StackPanel>
 
+        <!--大小-->
         <StackPanel Grid.Column="0" Orientation="Horizontal">
-            <Button Margin="20 170 10 125" Foreground="White" FontSize="15"  FontFamily="Courier New" HorizontalAlignment="Left" Background="Transparent" BorderBrush="Transparent" x:Name="SmallBtn" Click="SmallBtn_Click" VerticalAlignment="Bottom">A</Button>
-            <Button Margin="10 162 10 122" Foreground="White" FontSize="25"  FontFamily="Courier New" HorizontalAlignment="Center" Background="Transparent" BorderBrush="Transparent" x:Name="MiddleBtn" Click="MiddleBtn_Click" VerticalAlignment="Bottom">A</Button>
-            <Button Margin="10 165 10 120" Foreground="White" FontSize="35"  FontFamily="Courier New" HorizontalAlignment="Left" Background="Transparent" BorderBrush="Transparent" x:Name="BigBtn" Click="BigBtn_Click" VerticalAlignment="Bottom">A</Button>
+            <Button Margin="20 80 10 245" Foreground="White" FontSize="15"  FontFamily="Courier New" HorizontalAlignment="Left" Background="Transparent" BorderBrush="Transparent" x:Name="SmallBtn" Click="SmallBtn_Click" VerticalAlignment="Bottom">A</Button>
+            <Button Margin="10 92 10 242" Foreground="White" FontSize="25"  FontFamily="Courier New" HorizontalAlignment="Center" Background="Transparent" BorderBrush="Transparent" x:Name="MiddleBtn" Click="MiddleBtn_Click" VerticalAlignment="Bottom">A</Button>
+            <Button Margin="10 95 10 238" Foreground="White" FontSize="35"  FontFamily="Courier New" HorizontalAlignment="Center" Background="Transparent" BorderBrush="Transparent" x:Name="BigBtn" Click="BigBtn_Click" VerticalAlignment="Bottom">A</Button>
         </StackPanel>
+
+        <!--背景顏色-->
+        <StackPanel Grid.Column="0" Orientation="Horizontal">
+            <local:BackGray Margin="20 270 20 160" HorizontalAlignment="Left" MouseDown="BackGray_MouseDown"></local:BackGray>
+            <local:BackWhite Margin="5 270 20 160" HorizontalAlignment="Left" MouseDown="BackWhite_MouseDown"></local:BackWhite>
+        </StackPanel>
+        
         <!--左邊打字區-->
         <TextBox Grid.Column="1" AcceptsReturn="True" TextWrapping="Wrap" x:Name="TextArea" FontSize="20"></TextBox>
     </Grid>
