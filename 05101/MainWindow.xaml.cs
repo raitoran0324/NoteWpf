@@ -57,5 +57,41 @@ namespace _05101
             }
             
         }
+
+        private void NewBtn_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void SaveAsBtn_Click(object sender, RoutedEventArgs e)
+        {
+            // 產生儲存檔案視窗
+            Microsoft.Win32.SaveFileDialog dig = new Microsoft.Win32.SaveFileDialog();
+
+            // 顯示視窗
+            Nullable<bool> result = dig.ShowDialog();
+
+            // 當按下儲存之後的反應
+            if(result == true)
+            {
+                // 讀檔(路徑)
+               System.IO.File.WriteAllText(dig.FileName, TextArea.Text);
+            }
+        }
+
+        private void MiddleBtn_Click(object sender, RoutedEventArgs e)
+        {
+            TextArea.FontSize = 25;
+        }
+
+        private void BigBtn_Click(object sender, RoutedEventArgs e)
+        {
+            TextArea.FontSize = 35;
+        }
+
+        private void SmallBtn_Click(object sender, RoutedEventArgs e)
+        {
+            TextArea.FontSize = 15;
+        }
     }
 }
